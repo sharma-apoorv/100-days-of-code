@@ -1,30 +1,28 @@
 # 100 Days Of Code - Log
 
-### Day 0: February 30, 2016 (Example 1)
+<!-- ### Day 0: February 30, 2016 (Example 1)
 ##### (delete me or comment me out)
 
 **Today's Progress**: Fixed CSS, worked on canvas functionality for the app.
 
 **Thoughts:** I really struggled with CSS, but, overall, I feel like I am slowly getting better at it. Canvas is still new for me, but I managed to figure out some basic functionality.
 
-**Link to work:** [Calculator App](http://www.example.com)
+**Link to work:** [Calculator App](http://www.example.com) -->
 
-### Day 0: February 30, 2016 (Example 2)
-##### (delete me or comment me out)
+### Day 0: Monday, April 19, 2021
 
-**Today's Progress**: Fixed CSS, worked on canvas functionality for the app.
+**Today's Achievement**:
 
-**Thoughts**: I really struggled with CSS, but, overall, I feel like I am slowly getting better at it. Canvas is still new for me, but I managed to figure out some basic functionality.
+    * Used the MLlib and Pyspark library to cluster breast cancer data with K-means algorithm. 
+    * This method achieved an accuracy of 85%.
+    * Performed dimensionality-reduction using the PCA procedure.
+    * Re-ran the K-means algorithm with the reduced data. 
+      * There was no reduction in accuracy!
+      * The algorithm was much faster to train
 
-**Link(s) to work**: [Calculator App](http://www.example.com)
+**Thoughts**:
 
+**Key Learnings**:
 
-### Day 1: June 27, Monday
-
-**Today's Progress**: I've gone through many exercises on FreeCodeCamp.
-
-**Thoughts** I've recently started coding, and it's a great feeling when I finally solve an algorithm challenge after a lot of attempts and hours spent.
-
-**Link(s) to work**
-1. [Find the Longest Word in a String](https://www.freecodecamp.com/challenges/find-the-longest-word-in-a-string)
-2. [Title Case a Sentence](https://www.freecodecamp.com/challenges/title-case-a-sentence)
+    * The K-means algorithm uses the default of Euclidean distance by default
+    * Dimensionality reduction allows K-means to run faster, without sacrificing accuracy!
